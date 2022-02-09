@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" href="styling.css" type="text/css"></link>
+        <script src="getdetails.js"></script>
+        <title>
+            Learn JavaScript
+        </title>
+    </head>
+    <body>
+        <div>
+        <div class="divisions">
+            <h2 ><strong> Enter Your Details</strong> </h2>
+            </div>
+
+            <div class="name">
+            <table>
+        <tr>
+            <td>
+                <label for="name1"> Enter Your Name : </label>
+            </td>
+            <td> 
+                <input type="text" id="name1" placeholder="Mr. X" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="partne1r"> Enter Your Partner's Name : </label></td>
+            <td><input type="text" id="partner1" placeholder="Partner" name="Partners name"></td>
+        </tr>
+     
+            <tr>
+                <td><label for="location1"> Your Current location : </label></td>
+                <td> <input type="text" id="location1" placeholder="Location" name="location"></td>
+            </tr>
+       
+            <tr>
+                <td><label for="designation1"> Your Designation : </label></td>
+                <td>  <input type="text" id="designation1" placeholder="Designation" name="location"></td>
+            </tr>
+          
+            <tr>
+                <td> <label for="company1"> Your Current Company : </label></td>
+                <td><input type="text" id="company1" placeholder="Company" name="location"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" class="sumitbtn" onclick="handleSubmit()"/>
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="result">
+        
+    </div>
+   </div>
+
+
+    </body>
+</html>
+
